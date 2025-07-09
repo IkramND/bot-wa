@@ -1,12 +1,6 @@
 // chatController.js
 const axios = require('axios');
-//new API KEY
-const apikey = "AIzaSyDUsckM2XoyVMP7mtW3KvOnCUPB4fuYzfM";
-
-//old API KEY
-//const apiKey = "AIzaSyCulFn7sSwSuXjFiSSNXE_EoZB8RFtxrF4";
-
-
+const apiKey = "AIzaSyCulFn7sSwSuXjFiSSNXE_EoZB8RFtxrF4";
 
 
 const chatWithGpt = async (req) => {
